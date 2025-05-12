@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 export default function Hero() {
   return (
     <section className="bg-[url(src/assets/wallpaperRickMorty.jpg)] h-screen flex flex-col justify-center bg-cover items-center text-center text-white px-4">
+      <img className='h-screen w-full' src="src/assets/wallpaperRickMorty.jpg" alt="imagem rick" />
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
